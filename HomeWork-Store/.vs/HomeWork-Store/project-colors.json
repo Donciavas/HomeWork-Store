@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c504664c-167a-4fc6-9a4c-16ced5ac5255": {
+      "ProjectGuid": "c504664c-167a-4fc6-9a4c-16ced5ac5255",
+      "DisplayName": "HomeWork-Store",
+      "ColorIndex": 0
+    },
+    "75bc162d-23e8-48f5-9922-610f54a7a9cd": {
+      "ProjectGuid": "75bc162d-23e8-48f5-9922-610f54a7a9cd",
+      "DisplayName": "Models",
+      "ColorIndex": 1
+    },
+    "603e904a-664c-4bc5-bf92-d36720b60421": {
+      "ProjectGuid": "603e904a-664c-4bc5-bf92-d36720b60421",
+      "DisplayName": "Models",
+      "ColorIndex": 2
+    },
+    "fa9b41fb-8436-4b25-b5b1-41554b1c77f7": {
+      "ProjectGuid": "fa9b41fb-8436-4b25-b5b1-41554b1c77f7",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
