@@ -5,7 +5,13 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork-Store", "HomeWork-Store\HomeWork-Store.csproj", "{C504664C-167A-4FC6-9A4C-16CED5AC5255}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{603E904A-664C-4BC5-BF92-D36720B60421}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{603E904A-664C-4BC5-BF92-D36720B60421}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xUnitTests", "xUnitTests", "{058B97D3-B7D4-4E85-94E1-296E08CAF9FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeAuthValidation_xUnit", "BarcodeAuthValidation_xUnit\BarcodeAuthValidation_xUnit.csproj", "{AF37C36F-2A2C-43E5-AC32-8BBE62D16F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartAndChequeSysValidation_xUnit", "CartAndChequeSysValidation_xUnit\CartAndChequeSysValidation_xUnit.csproj", "{3D1823CE-435B-4CF4-B6DD-435062339907}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +27,21 @@ Global
 		{603E904A-664C-4BC5-BF92-D36720B60421}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{603E904A-664C-4BC5-BF92-D36720B60421}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{603E904A-664C-4BC5-BF92-D36720B60421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF37C36F-2A2C-43E5-AC32-8BBE62D16F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF37C36F-2A2C-43E5-AC32-8BBE62D16F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF37C36F-2A2C-43E5-AC32-8BBE62D16F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF37C36F-2A2C-43E5-AC32-8BBE62D16F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1823CE-435B-4CF4-B6DD-435062339907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1823CE-435B-4CF4-B6DD-435062339907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1823CE-435B-4CF4-B6DD-435062339907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1823CE-435B-4CF4-B6DD-435062339907}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF37C36F-2A2C-43E5-AC32-8BBE62D16F13} = {058B97D3-B7D4-4E85-94E1-296E08CAF9FF}
+		{3D1823CE-435B-4CF4-B6DD-435062339907} = {058B97D3-B7D4-4E85-94E1-296E08CAF9FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9230F720-2013-4968-9D43-6BFBF601A27D}

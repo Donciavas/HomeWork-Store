@@ -17,3 +17,8 @@ C:\Users\dvitk\OneDrive\Documents\CodeAcademy\C#.net\HW1\HomeWork-Store\HomeWork
 C:\Users\dvitk\OneDrive\Documents\CodeAcademy\C#.net\HW1\HomeWork-Store\HomeWork-Store\obj\Debug\net5.0\ref\HomeWork-Store.dll
 C:\Users\dvitk\OneDrive\Documents\CodeAcademy\C#.net\HW1\HomeWork-Store\HomeWork-Store\obj\Debug\net5.0\HomeWork-Store.pdb
 C:\Users\dvitk\OneDrive\Documents\CodeAcademy\C#.net\HW1\HomeWork-Store\HomeWork-Store\obj\Debug\net5.0\HomeWork-Store.genruntimeconfig.cache
+C:\Users\dvitk\OneDrive\Documents\CodeAcademy\C#.net\HW1\HomeWork-Store\HomeWork-Store\bin\Debug\net5.0\MailKit.dll
+C:\Users\dvitk\OneDrive\Documents\CodeAcademy\C#.net\HW1\HomeWork-Store\HomeWork-Store\bin\Debug\net5.0\MimeKit.dll
+C:\Users\dvitk\OneDrive\Documents\CodeAcademy\C#.net\HW1\HomeWork-Store\HomeWork-Store\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\dvitk\OneDrive\Documents\CodeAcademy\C#.net\HW1\HomeWork-Store\HomeWork-Store\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\dvitk\OneDrive\Documents\CodeAcademy\C#.net\HW1\HomeWork-Store\HomeWork-Store\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll

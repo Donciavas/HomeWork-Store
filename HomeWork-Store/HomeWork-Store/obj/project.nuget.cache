@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "V5qiAL/zrGWUG0wJ0AlRZ9A38/z+BhbYou3eocKNXAqr1A+IijIPVRcY3LwWFOgqgRTyzvlsoDRP/Gd2m43FmQ==",
+  "dgSpecHash": "RPp6MGmBfhR5nKjXhyxLnMiLW5vQGFJ1qDdGS53UigSvnGiaxBWI/hGMcNPctMKbAO6ta20fSWbCNgVQGFETgA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dvitk\\OneDrive\\Documents\\CodeAcademy\\C#.net\\HW1\\HomeWork-Store\\HomeWork-Store\\HomeWork-Store.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dvitk\\.nuget\\packages\\mailkit\\3.1.1\\mailkit.3.1.1.nupkg.sha512",
+    "C:\\Users\\dvitk\\.nuget\\packages\\mimekit\\3.1.1\\mimekit.3.1.1.nupkg.sha512",
+    "C:\\Users\\dvitk\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\dvitk\\.nuget\\packages\\system.formats.asn1\\5.0.0\\system.formats.asn1.5.0.0.nupkg.sha512",
+    "C:\\Users\\dvitk\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
+    "C:\\Users\\dvitk\\.nuget\\packages\\system.security.cryptography.pkcs\\5.0.0\\system.security.cryptography.pkcs.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

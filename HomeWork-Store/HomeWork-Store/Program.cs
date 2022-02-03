@@ -10,35 +10,25 @@ namespace HomeWork_Store
         {
             Console.WriteLine("Welcome to the Store!");
 
-            #region TEORIJA - Review
-            // Kas yra stash changes?
-            // Stash yra pakeitimų atsidėjimas į šalį
-
-            // Remote branch'as yra "kitas žmogus"
-            // Kiekvienas turi savo individualų branch'ą
-
-            // SSH Raktai kuria saugumą (end-to-end encryption?)
-            #endregion
-
-            #region InheritanceParameters
+            #region Inheritance
             // Parduotuvės programa:
 
-            // - Tėvinė klasė prekė (kaina, barkodas, svoris)
+            // - Tėvinė klasė prekė (kaina, barcode, weight)
 
             // - Vaikinės prekės klasės:
             //			                - Saldainiai(cukrus)
             //			                - Mėsa(baltymai)
-            //		                	- Daržovės(skaidulinės medžiagos)
-            //		                	- Gėrimai(litrai)
+            //		                	- Greens(skaidulinės medžiagos)
+            //		                	- Drinkables(litrai)
             #endregion
 
-            #region DataManagementNotions
+            #region DataManagement
             // (!) Skirtingų tipų prekės yra saugomomos skirtinguose .csv failuose
             //     (saldainiai viename, mėsa kitame ir t.t.) (csv example:
             //     https://e.nodegoat.net/CMS/upload/guide-import_person_csv_notepad.png)
             //
-            // (!) Pradėjus programai, jūsų sukurtas FileReaderService turi perskaityti
-            //     visus failus ir pavertus eilutes į objektus sudėti į atitinkamas repozitorijas.
+            // (!) Pradėjus programai, jūsų sukurtas FileReaderService contains perskaityti
+            //     visus failus ir paverti eilutes į objektus, sudėti į atitinkamas repozitorijas.
             //
             // (!) Pvz.: Programai prasidėjus sukuriamos visos repozitorijos pradedant saldainių repozitorija,
             //     ji savyje išsikviečia failų skaitymo servisą, kuris perskaito atitinkamą failą(pvz.: candies.txt)
@@ -50,23 +40,24 @@ namespace HomeWork_Store
             #endregion
 
             #region FunctionalityAndGeneralPrinciples
+
             // Veikimo principai:
-            // (1) Įsijungus programą nurodote kiek turi pinigų.
+            // (1) Įsijungus programą nurodote kiek contains pinigų.
 
             // (2) Jeigu pinigų yra daugiau nei 0 tada vartotojas gali pirkti prekes,
-            //     jei pinigų neturi tada gali jas tik peržiūrėti.
+            //     jei pinigų necontains tada gali jas tik peržiūrėti.
 
-            // (3) Programoje turi būti galima išspausdinti kiekvienos prekės repozitorijos
+            // (3) Programoje contains būti galima išspausdinti kiekvienos prekės repozitorijos
             //     sąrašą individualiai(pvz.: pamatyti visas mėsos prekes)
 
             // (4) Pasirenkant kokias prekes norit pirkti, jos įdedamos į pirkinių krepšelį.
 
-            // (5) Pirkinių krepšelį taip pat turi būti galimybė peržiūrėti.(prekes su
+            // (5) Pirkinių krepšelį taip pat contains būti galimybė peržiūrėti.(prekes su
             //     kainom ir galutinę viso krepšelio kainą)
 
-            // (6) Apsisprendus pirkti turi būti patikrinama ar užtenka pinigų.
+            // (6) Apsisprendus pirkti contains būti patikrinama ar fortenka pinigų.
 
-            // (7) Jeigu pinigų užtenka tada sudaromas kvitas, į kurį įeina krepšelio
+            // (7) Jeigu pinigų fortenka tada sudaromas kvitas, į kurį įeina krepšelio
             //     informacija, galutinė kaina ir laikas kada buvo nupirkta.
 
             // (8) Kvitas išsiunčiamas nurodytu el. paštu(Labiau advanced dalis, palieku ją patiems
@@ -83,8 +74,8 @@ namespace HomeWork_Store
             //    ir atliekama jos validacija, gal apsimoka ją kažkaip pernaudot ?)
             // 5. Nepaminėta, bet xUnit'ai
             #endregion
-            var handler = new CSV_Handler();
-            handler.TransferToCSV("Drinkables");
+
+            StoreFrontMenu.Menu();
         }
     }
 }

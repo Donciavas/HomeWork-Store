@@ -20,7 +20,22 @@
       "ProjectGuid": "fa9b41fb-8436-4b25-b5b1-41554b1c77f7",
       "DisplayName": "Solution Items",
       "ColorIndex": 3
+    },
+    "6e7ec100-ca55-41af-ab75-58893c65f42d": {
+      "ProjectGuid": "6e7ec100-ca55-41af-ab75-58893c65f42d",
+      "DisplayName": "BarcodeAuthenticatorValidation_xUnit",
+      "ColorIndex": 4
+    },
+    "af37c36f-2a2c-43e5-ac32-8bbe62d16f13": {
+      "ProjectGuid": "af37c36f-2a2c-43e5-ac32-8bbe62d16f13",
+      "DisplayName": "BarcodeAuthValidation_xUnit",
+      "ColorIndex": 5
+    },
+    "3d1823ce-435b-4cf4-b6dd-435062339907": {
+      "ProjectGuid": "3d1823ce-435b-4cf4-b6dd-435062339907",
+      "DisplayName": "CartAndChequeSysValidation_xUnit",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 7
 }
